@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------- HEADER SECTION ------------ */
+
+/* This is the header container configurations */
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/header.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* This is the nav container where it contains the images and nav links */
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Both of the images sa nav section will have a width of 150px only */
+nav img {
+    width: 150px;
+
+}
+
+/* Papabilugin niya ang profile picture ko */
+nav #profile_picture {
+    border-radius: 50%;
+    margin-left: 38px;
+}
+
+/* This will affect the container for all the links */
+.nav-links {
+    flex: 1;
+    text-align: right;
+
+}
+
+/* This will affect the links under the li */
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+/* This will affect the anchor tags or the links specifically */
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* Animation design for the links in the nav */
+/* I don't know how this works */
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+/* This is for the textbox inside the header */
+/* I need to draw the effects of the units in the notebook so I can better visualize what's happening with those units */
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 23px;
+    color: white;
+}
