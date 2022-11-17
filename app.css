@@ -280,3 +280,24 @@ nav .fa {
     margin-bottom: 40px;
     padding: 65px;
 }
+
+/* -------- FOOTER/ABOUT ME SECTION ------- */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa {
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
