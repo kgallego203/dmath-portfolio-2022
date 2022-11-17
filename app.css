@@ -104,7 +104,7 @@ nav .fa {
 .row {
     margin-top: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 /* -------------- PRELIM ACTIVITIES SECTION ---------- */
@@ -179,6 +179,44 @@ nav .fa {
 }
 
 .midterm-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* ------- OTHER ACTIVITIES SECTION --------- */
+
+.other {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.other-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.other-col iframe {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.other-col iframe:hover {
+    /* transform: scale(1.5) translate(0, -10ex); */
+    box-shadow: -1px 1px 8px 6px rgba(6, 7, 7, 0.62);
+    -webkit-box-shadow: -1px 1px 8px 6px rgba(10, 12, 14, 0.62);
+    -moz-box-shadow: -1px 1px 8px 6px rgba(8, 10, 10, 0.62);
+}
+
+.other-col p {
+    padding: 0;
+}
+
+.other-col h3 {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
