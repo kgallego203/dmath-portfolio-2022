@@ -27,7 +27,6 @@ nav {
 /* Both of the images sa nav section will have a width of 150px only */
 nav img {
     width: 150px;
-
 }
 
 /* Papabilugin niya ang profile picture ko */
@@ -74,6 +73,10 @@ nav #profile_picture {
     width: 100%;
 }
 
+nav .fa {
+    display: none;
+}
+
 /* This is for the textbox inside the header */
 /* I need to draw the effects of the units in the notebook so I can better visualize what's happening with those units */
 .text-box {
@@ -94,4 +97,59 @@ nav #profile_picture {
     margin: 10px 0 40px;
     font-size: 23px;
     color: white;
+}
+
+/* -------------- PRELIM ACTIVITIES SECTION ---------- */
+
+/* This class selector is VERY IMPORTANT as it affects all classes with .row to fix the images. */
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prelim {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.prelim-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.prelim-col img {
+    border: 3px solid black;
+    width: 100%;
+    border-radius: 10px;
+    /* Animation to enlarge the images when hovered */
+    top: -50px;
+    left: -35px;
+    display: block;
+    z-index: 999;
+    cursor: pointer;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+}
+
+/* TEST! */
+#prelim-async2-pg2 {}
+
+.prelim-col img:hover {
+    transform: scale(1.5);
+}
+
+.prelim-col p {
+    padding: 0;
+}
+
+.prelim-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
 }
