@@ -141,8 +141,6 @@ nav .fa {
     box-shadow: -1px 1px 8px 6px rgba(6, 7, 7, 0.62);
     -webkit-box-shadow: -1px 1px 8px 6px rgba(10, 12, 14, 0.62);
     -moz-box-shadow: -1px 1px 8px 6px rgba(8, 10, 10, 0.62);
-    height: 100%;
-    width: 500px;
 }
 
 .prelim-col p {
